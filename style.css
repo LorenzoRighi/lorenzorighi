@@ -1,11 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+.bg-blue{
+    background-color: #3743a4;
+}
+.text-blue{
+    color: #3743a4;
+}
+.bg-pink{
+    background-color: rgb(238, 154, 162);
+}
+.text-pink{
+    color: rgb(238, 154, 162);
+}
 *{
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-a{
-    text-decoration: none;
-}
-body {
+a{text-decoration: none;}
+
+body{
     align-items: center;
     display: flex;
     font-family: "Questrial";
@@ -16,14 +30,15 @@ body {
 
 .container{
     border: 3px solid #dfdfdf;
-    min-height: 100vh;
     border-radius: 10px;
 }
-
-.mask{
-    background-color: rgba(255, 255, 255, 0.5);
+.hover-item{
+    border-radius: 25px;
+    border: 5px solid #3743a4;
 }
-
-.visible{
-    background-color: #3743a4;
+.hover-item:hover{
+    border-radius: 25px;
+    border: 5px solid #3743a4;
+    background-color: #dc3545;
+    color: rgb(238, 154, 162);
 }
