@@ -32,13 +32,17 @@ body{
     border: 3px solid #dfdfdf;
     border-radius: 10px;
 }
-.hover-item{
+.hover-emailme{
     border-radius: 25px;
     border: 5px solid #3743a4;
 }
-.hover-item:hover{
+.hover-emailme:hover{
     border-radius: 25px;
     border: 5px solid #3743a4;
     background-color: #dc3545;
     color: rgb(238, 154, 162);
+}
+
+.hover-social:hover{
+    color: #dc3545;
 }
