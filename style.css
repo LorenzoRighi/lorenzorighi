@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body {
+    align-items: center;
+    display: flex;
+    font-family: "Questrial";
+    font-weight: 800;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    border: 3px solid #dfdfdf;
+    min-height: 100vh;
+    border-radius: 10px;
+}
+
+.mask{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.visible{
+    background-color: #3743a4;
+}
